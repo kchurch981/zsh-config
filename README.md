@@ -1,1 +1,3 @@
-<h1> <b>Usage: </b></h1>./setup.sh
+#zsh-config
+Setup zsh, oh-my-zsh, and terminator
+Usage: ./setup.sh
