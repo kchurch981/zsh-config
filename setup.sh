@@ -10,4 +10,4 @@ sed -i '11s/robbyrussell/agnoster/' ~/.zshrc
 
 #Setup terminator
 apt-get install terminator
-cp ./terminator_config ~/.config/terminator/config
+cp ./config_terminator ~/.config/terminator/config
