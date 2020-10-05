@@ -1,4 +1,7 @@
 #!/bin/sh
+#Setup compile YCM
+cd ~/.vim/bundle/YouCompleteMe
+python3 install.py --all
 
 #Setup zsh
 apt-get install -y zsh
