@@ -5,7 +5,7 @@ python3 install.py --all
 cd -
 #Setup zsh
 apt-get install -y zsh
-chsh -s $(which zsh) 
+sudo -u $USER chsh -s $(which zsh) 
 
 #Setup oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
