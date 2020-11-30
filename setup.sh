@@ -1,5 +1,6 @@
 #!/bin/sh
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PlugInstall +qall
 #Setup compile YCM
 cd ~/.vim/bundle/YouCompleteMe
 python3 install.py --all
